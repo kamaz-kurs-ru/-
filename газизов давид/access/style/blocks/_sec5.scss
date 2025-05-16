@@ -1,0 +1,33 @@
+.sec5 {
+  .sec5_bg {
+    background: #F2F2F5;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 97px;
+    .sec5_info {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 140%;
+        color: #2c1500;
+      }
+      .btn2 {
+        padding: 10px 20px;
+        width: 152px;
+        height: 40px;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: #fff;
+        background: $primary-color;
+      }
+    }
+  }
+}

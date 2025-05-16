@@ -1,0 +1,36 @@
+header {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 1168px;
+  position: relative;
+  left: 50%;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 550px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .btn1 {
+    padding: 8px 29px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: $primary-color;
+  }
+  .btn2 {
+    padding: 8px 29px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+    background: $primary-color;
+  }
+}

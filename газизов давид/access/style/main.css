@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1248px;
+  padding: 0 40px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 68px;
+  color: #156963;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  color: #2c1500;
+}
+
+.sec1 {
+  background-image: url(./img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  max-width: 808px;
+  height: 740px;
+  background-size: cover;
+}
+
+.sec1_info {
+  position: absolute;
+  left: 50%;
+}
+.sec1_info h1 {
+  max-width: 519px;
+}
+.sec1_info p {
+  margin-top: 24px;
+  max-width: 519px;
+  margin-bottom: 110px;
+}
+.sec1_info .arrows {
+  display: flex;
+}
+.sec1_info .arrows .ar_t {
+  display: flex;
+  gap: 8px;
+  opacity: 0.5;
+}
+.sec1_info .arrows .block1 {
+  padding: 37px 53px 0 0;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333;
+}
+.sec1_info .arrows .block1 h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #156963;
+}
+.sec1_info .arrows .block2 {
+  padding: 38px 49px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #f2f2f2;
+  background: #156963;
+}
+.sec1_info .arrows .block2 h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #fff;
+}
+.sec1_info .arrows .block2 a {
+  opacity: 0.5;
+}
+
+header {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 1168px;
+  position: relative;
+  left: 50%;
+}
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 550px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .btn1 {
+  padding: 8px 29px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #156963;
+}
+header .btn2 {
+  padding: 8px 29px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #fff;
+  background: #156963;
+}
+
+.cards1 {
+  margin-top: 142px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards1 .card1 {
+  border: 1px solid #e0e0e0;
+  width: 268px;
+  height: 155px;
+  padding: 22px 16px;
+}
+.cards1 .icon_f {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #156963;
+}
+.cards1 p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  color: #2c1500;
+}
+
+.sec3 {
+  margin-bottom: 80px;
+}
+.sec3 .hh {
+  display: flex;
+  justify-content: space-between;
+}
+.sec3 .hh h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+.sec3 .hh .btn3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000;
+}
+.sec3 .hh .btn3 img {
+  width: 12px;
+  height: 12px;
+}
+.sec3 .line {
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  height: 1px;
+  max-width: 1168px;
+  background: #e0e0e0;
+}
+.sec3 .cards2 {
+  display: flex;
+  justify-content: space-between;
+}
+.sec3 .cards2 .card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.sec3 .cards2 .card2 .name {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  margin-top: 8px;
+}
+.sec3 .cards2 .card2 .cost {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+
+.sec4 {
+  margin-bottom: 80px;
+}
+.sec4 > div {
+  display: flex;
+  justify-content: space-between;
+}
+.sec4 .sec4_info h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2c1500;
+  max-width: 522px;
+}
+.sec4 .sec4_info p {
+  margin-top: 16px;
+  margin-bottom: 74px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #2c1500;
+  opacity: 0.8;
+  max-width: 522px;
+}
+.sec4 .sec4_info img {
+  width: 568px;
+  height: 250px;
+}
+.sec4 .sec4_img {
+  width: 513px;
+  height: 609px;
+}
+
+.sec5 .sec5_bg {
+  background: #F2F2F5;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 97px;
+}
+.sec5 .sec5_bg .sec5_info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.sec5 .sec5_bg .sec5_info h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #2c1500;
+}
+.sec5 .sec5_bg .sec5_info .btn2 {
+  padding: 10px 20px;
+  width: 152px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #fff;
+  background: #156963;
+}
+
+footer {
+  margin-top: 80px;
+  border-top: 1px solid #b0e4e0;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+footer .foot {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+footer .foot h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #156963;
+  margin-bottom: 24px;
+}
+footer .foot h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000;
+  margin-bottom: 20px;
+}
+footer .foot p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  color: #000;
+  margin-bottom: 14px;
+}
+footer .foot .foot1 {
+  width: 282px;
+}
+footer .foot .foot1 > p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 154%;
+  color: #4f4f4f;
+}
+footer .foot .foot4 a {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 175%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+footer .foot .foot4 input {
+  margin-bottom: 14px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  width: 234px;
+  height: 32px;
+  padding-left: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+footer .foot .foot4 input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: #000;
+  opacity: 0.5;
+}
+footer .foot .foot4 input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: #000;
+  opacity: 0.5;
+}
+footer .foot .foot4 .btn4 {
+  margin-top: 14px;
+  border-radius: 2px;
+  padding: 8px 12px;
+  width: 51px;
+  height: 22px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: #156963;
+}/*# sourceMappingURL=main.css.map */

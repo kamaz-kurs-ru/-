@@ -1,0 +1,79 @@
+footer {
+  margin-top: 80px;
+  border-top: 1px solid #b0e4e0;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  .foot {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    h2 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #156963;
+      margin-bottom: 24px;
+    }
+    h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100%;
+      color: #000;
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 114%;
+      color: #000;
+      margin-bottom: 14px;
+    }
+    .foot1 {
+      width: 282px;
+      > p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 154%;
+        color: #4f4f4f;
+      }
+    }
+    .foot4 {
+      a {
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 175%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+      }
+      input {
+        margin-bottom: 14px;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+        width: 234px;
+        height: 32px;
+        padding-left: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      input::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: #000;
+        opacity: 0.5;
+      }
+      .btn4 {
+        margin-top: 14px;
+        border-radius: 2px;
+        padding: 8px 12px;
+        width: 51px;
+        height: 22px;
+        backdrop-filter: blur(10px);
+        background: #156963;
+      }
+    }
+  }
+}

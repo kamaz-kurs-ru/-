@@ -1,0 +1,54 @@
+.sec1 {
+  background-image: url(./img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  max-width: 808px;
+  height: 740px;
+  background-size: cover;
+}
+.sec1_info {
+  position: absolute;
+  left: 50%;
+  h1 {
+    max-width: 519px;
+  }
+  p {
+    margin-top: 24px;
+    max-width: 519px;
+    margin-bottom: 110px;
+  }
+  .arrows {
+    display: flex;
+    .ar_t{
+      display: flex;
+      gap: 8px;
+      opacity: 0.5;
+    }
+    .block1 {
+      padding: 37px 53px 0 0;
+      font-weight: 500;
+      font-size: 24px;
+      color: #333;
+      h2 {
+        font-weight: 500;
+        font-size: 32px;
+        color: #156963;
+      }
+    }
+    .block2 {
+      padding: 38px 49px;
+      font-weight: 500;
+      font-size: 24px;
+      color: #f2f2f2;
+      background: $primary-color;
+      h2 {
+        font-weight: 500;
+        font-size: 32px;
+        color: #fff;
+      }
+      a{
+        opacity: 0.5;
+      }
+    }
+  }
+}
